@@ -212,7 +212,24 @@ table {
   font-weight: 400 !important;
   line-height: 2rem !important;
 }
-.containerExpertImmo .contentExpertImmo .btnExpertImmo {
+.containerExpertImmo .contentExpertImmo .blockExpertImmo {
+  margin: 0 auto !important;
+  width: 18.5rem !important;
+}
+@media screen and (min-width: 1200px) {
+  .containerExpertImmo .contentExpertImmo .blockExpertImmo {
+    display: flex !important;
+    justify-content: end !important;
+    margin: 0 auto !important;
+    height: 95px !important;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .containerExpertImmo .contentExpertImmo .blockExpertImmo {
+    margin: 0 !important;
+  }
+}
+.containerExpertImmo .contentExpertImmo .blockExpertImmo .btnExpertImmo {
   color: white !important;
   border: none !important;
   background-color: #f2ae00 !important;
@@ -226,7 +243,7 @@ table {
   cursor: pointer !important;
   transition: width 300ms ease-in-out, height 350ms ease-in-out, font-size 350ms ease-in-out !important;
 }
-.containerExpertImmo .contentExpertImmo .btnExpertImmo:hover {
+.containerExpertImmo .contentExpertImmo .blockExpertImmo .btnExpertImmo:hover {
   width: 18.75rem !important;
   height: 4rem !important;
   font-size: 1.188rem !important;
