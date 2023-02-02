@@ -137,6 +137,7 @@ table {
 }
 
 .containerExpertImmo {
+  font-size: 16px !important;
   height: 100vh !important;
   display: flex !important;
   align-items: center !important;
@@ -230,6 +231,7 @@ table {
   }
 }
 .containerExpertImmo .contentExpertImmo .blockExpertImmo .btnExpertImmo {
+  font-size: 1em !important;
   color: white !important;
   border: none !important;
   background-color: #f2ae00 !important;

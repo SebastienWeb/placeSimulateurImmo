@@ -4,6 +4,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto&display=swap");
 
 .containerExpertImmo {
+  font-size: 16px !important;
   height: 100vh !important;
   display: flex !important;
   align-items: center !important;
@@ -78,6 +79,7 @@
         margin: 0 !important;
       }
       .btnExpertImmo {
+        font-size: 1em !important;
         color: white !important;
         border: none !important;
         background-color: $secondary-color !important;
